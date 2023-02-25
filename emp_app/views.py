@@ -14,7 +14,7 @@ def all_emp(request):
     print(data)
     return render (request,"ViewAll_emp.html",data) 
 
-
+ # this is comment
 def add_emp(request):
    if request.method == 'POST':
         first_name = request.POST['first_name']
